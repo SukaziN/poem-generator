@@ -1,0 +1,32 @@
+h1 {
+  color: rgb(16, 235, 235);
+  text-align: center;
+}
+
+.input-text-box {
+  border: 1px solid lightblue;
+  border-radius: 20px;
+  padding: 12px 8px;
+  margin-right: 10px;
+}
+
+.search-button {
+  border: 1px solid lightblue;
+  border-radius: 20px;
+  background: blue;
+  color: white;
+  padding: 12px 18px;
+}
+
+body {
+  border: 1px solid rgb(250, 198, 198);
+  border-radius: 30px;
+  margin: 40px 340px;
+  background: pink;
+  text-align: center;
+}
+main {
+  background: palevioletred;
+  padding: 20px;
+  border-radius: 30px;
+}
