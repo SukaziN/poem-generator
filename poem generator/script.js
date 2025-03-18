@@ -5,9 +5,11 @@ document.addEventListener("DOMContentLoaded", function () {
     generatePoem();
   });
   function generatePoem() {
+    let displayPoem = document.querySelector("#user-input");
     let apiKey = "6f68db0a5tf8734ofa9df0238e83067c";
-    let prompt = "Generate a short 4 line poem about nature in French";
-    let context = "You are a Shakespear level poet with a love for nature";
+    let prompt = `genrerate a short 4-line French poem about ${displayPoem.value}`;
+    let context =
+      "You are a Shakespear level poet with a talent for spoken word";
     let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
     axios.get(apiUrl).then(function (response) {

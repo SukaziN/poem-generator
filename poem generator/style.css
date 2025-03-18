@@ -26,6 +26,7 @@ h1 {
   color: rgb(12, 12, 128);
   padding: 12px 18px;
   font-size: 16px;
+  cursor: pointer;
 }
 
 body {
@@ -40,10 +41,18 @@ main {
   padding: 20px;
   border-radius: 12px;
 }
+.hint {
+  margin-top: 5px;
+  margin-left: -160px;
+  font-size: 14px;
+  font-weight: 100;
+  color: rgb(0, 0, 0, 0.4);
+}
 
 p {
   font-family: cursive;
   border: 1px lightpink solid;
   background: lightpink;
   margin: 30px 75px;
+  border-left: 4px solid lightblue;
 }
