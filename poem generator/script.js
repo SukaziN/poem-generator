@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
   function generatePoem() {
     let displayPoem = document.querySelector("#user-input");
     let apiKey = "6f68db0a5tf8734ofa9df0238e83067c";
-    let prompt = `generate a short 4-line English poem about ${displayPoem.value}`;
+    let prompt = `generate a short 4-line French poem about ${displayPoem.value}`;
     let context =
       "You are a Shakespear level poet with a talent for spoken word";
     let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
